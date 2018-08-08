@@ -44,6 +44,8 @@ import java.util.List;
  */
 public class StageNodeExt extends FlowNodeExt {
 
+    private int totalPages;
+
     private List<AtomFlowNodeExt> stageFlowNodes;
 
     /** Bit of a hack but this lets us cache all the child nodes, not just the limited subset without adding to JSON responses */
